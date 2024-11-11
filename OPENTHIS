@@ -1,6 +1,6 @@
 <html>
 <script>var myWindow=window.open(''); 
-myWindow.document.write("<h1>Change me!</h1>"); <!-- Change this line to have YOUR HTML! -->
+myWindow.document.write("<h1>Change me!</h1>"); <!--Change this line to have YOUR HTML!-->
 var range = myWindow.document.createRange(); 
 range.selectNode(myWindow.document.getElementById('hello')); 
 myWindow.getSelection().addRange(range); 
